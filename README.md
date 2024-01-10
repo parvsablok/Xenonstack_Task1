@@ -49,9 +49,6 @@ internsctl file getinfo --permissions <file-name>
 internsctl file getinfo --owner <file-name>
 internsctl file getinfo --last-modified <file-name>
 ```
-## Options
-- help: Display help and usage information.
-- version: Display the command version.
 ## Installation
 Clone the repository and make the script executable:
 - git clone https://github.com/parvsablok/Xenonstack_Task1.git
