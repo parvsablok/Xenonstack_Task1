@@ -1,0 +1,80 @@
+<mxfile host="app.diagrams.net" modified="2024-01-10T08:50:50.982Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="I0E2ka0gGkNuX8L9Oa3q" version="22.1.18" type="github">
+  <diagram name="Page-1" id="Gle4c8Y65gqSEuaUcQ9C">
+    <mxGraphModel dx="2077" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VzlXRvHnHTx6qM9_QIsn-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="VzlXRvHnHTx6qM9_QIsn-25" target="VzlXRvHnHTx6qM9_QIsn-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="280" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VzlXRvHnHTx6qM9_QIsn-1" value="Start" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="50" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VzlXRvHnHTx6qM9_QIsn-3" value="User Input" style="endArrow=classic;html=1;rounded=0;exitX=-0.01;exitY=0.6;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="VzlXRvHnHTx6qM9_QIsn-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="100" as="sourcePoint" />
+            <mxPoint x="260" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VzlXRvHnHTx6qM9_QIsn-26" value="Invalid Arguments" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VzlXRvHnHTx6qM9_QIsn-5" target="VzlXRvHnHTx6qM9_QIsn-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VzlXRvHnHTx6qM9_QIsn-5" value="Parse Arguments" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="160" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VzlXRvHnHTx6qM9_QIsn-6" value="Valid Arguments" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="220" as="sourcePoint" />
+            <mxPoint x="250" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VzlXRvHnHTx6qM9_QIsn-11" value="Execute Command section and options" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VzlXRvHnHTx6qM9_QIsn-9">
+          <mxGeometry x="0.5996" y="-10" relative="1" as="geometry">
+            <mxPoint x="130" y="410" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VzlXRvHnHTx6qM9_QIsn-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VzlXRvHnHTx6qM9_QIsn-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="370" y="340" />
+              <mxPoint x="370" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VzlXRvHnHTx6qM9_QIsn-9" value="Command&lt;br&gt;Execution" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="300" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VzlXRvHnHTx6qM9_QIsn-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VzlXRvHnHTx6qM9_QIsn-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VzlXRvHnHTx6qM9_QIsn-12" value="Generate output" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VzlXRvHnHTx6qM9_QIsn-19" value="Specific options handling files" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VzlXRvHnHTx6qM9_QIsn-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VzlXRvHnHTx6qM9_QIsn-17" value="File&lt;br&gt;Related&lt;br&gt;commands" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="520" width="100" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="VzlXRvHnHTx6qM9_QIsn-20" value="Perform File Operations" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VzlXRvHnHTx6qM9_QIsn-23" value="Provide help/version Information" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VzlXRvHnHTx6qM9_QIsn-25" value="Show error message" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
