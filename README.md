@@ -1,5 +1,4 @@
 # Xenonstack_Task1
-# internsctl - Custom Linux Command for Intern Operations
 
 ## Overview
 
@@ -49,9 +48,12 @@ internsctl file getinfo --size <file-name>
 internsctl file getinfo --permissions <file-name>
 internsctl file getinfo --owner <file-name>
 internsctl file getinfo --last-modified <file-name>
-
+```
 ## Options
 --help: Display help and usage information.
 --version: Display the command version.
-Installation
+## Installation
 Clone the repository and make the script executable:
+git clone <repository-url>
+cd internsctl
+chmod +x internsctl
