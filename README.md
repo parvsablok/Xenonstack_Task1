@@ -54,3 +54,5 @@ Clone the repository and make the script executable:
 - git clone https://github.com/parvsablok/Xenonstack_Task1.git
 - cd internsctl
 - chmod +x internsctl
+## Diagram
+![Untitled Diagram drawio](https://github.com/parvsablok/Xenonstack_Task1/assets/99950588/20066133-2f9f-4677-a56b-f42ff36b0034)
