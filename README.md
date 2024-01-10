@@ -54,6 +54,6 @@ internsctl file getinfo --last-modified <file-name>
 - version: Display the command version.
 ## Installation
 Clone the repository and make the script executable:
-git clone <repository-url>
-cd internsctl
-chmod +x internsctl
+- git clone https://github.com/parvsablok/Xenonstack_Task1.git
+- cd internsctl
+- chmod +x internsctl
